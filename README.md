@@ -88,14 +88,17 @@ npm start
 ## 📌 Estrutura do Projeto
 
 ```
-📦 login-system
+📦 sistema-login-react
  ├── 📂 backend
+ │   ├── 📂 config
+ │   ├── ├── db.js  # Conexão com MySQL
+ │   ├── 📂 routes
+ │   ├── ├── auth.js  # Rotas de autenticação 
+ │   ├── ├── register.js  # Rotas do resgistro   
  │   ├── index.js  # Arquivo principal do servidor
- │   ├── database.js  # Conexão com MySQL
- │   ├── routes.js  # Rotas de autenticação
  │   ├── .env  # Configurações do banco de dados e JWT
  │   └── package.json  # Dependências do backend
- │
+ │   
  ├── 📂 frontend
  │   ├── 📂 src
  │   │   ├── 📂 components
